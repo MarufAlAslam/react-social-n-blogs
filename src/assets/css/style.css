@@ -1,0 +1,8 @@
+body, html{
+    background-color: #464248;
+    min-height: 100vh;
+}
+
+*{
+    color: white;
+}
