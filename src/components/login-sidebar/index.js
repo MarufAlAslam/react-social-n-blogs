@@ -28,6 +28,7 @@ const LoginSidebar = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);
+        localStorage.setItem("isLoggedIn", true)
         navigator("/dashboard");
         console.log(user);
       })
@@ -45,7 +46,7 @@ const LoginSidebar = () => {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(user);
-        setUser(user);
+        localStorage.setItem("isLoggedIn", true)
         navigator("/dashboard");
       })
       .catch((error) => {
