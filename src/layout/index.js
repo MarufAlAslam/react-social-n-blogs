@@ -26,7 +26,7 @@ const Layout = () => {
     <div className="flex justify-between items-start">
       <div className="md:w-2/12">
         <div className="min-h-screen flex flex-col justify-end items-start p-10">
-            <NavLink to="/" className="w-full mb-3 jost italic">Home</NavLink>
+            <NavLink to="/dashboard" className="w-full mb-3 jost italic">Home</NavLink>
             <NavLink to="/get-involved" className="w-full mb-3 jost italic">Get Involved </NavLink>
             <NavLink to="/info-and-support" className="w-full mb-3 jost italic">Information and support</NavLink>
             <NavLink to="/about" className="w-full mb-3 jost italic">About</NavLink>

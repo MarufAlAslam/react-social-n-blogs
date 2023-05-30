@@ -26,7 +26,7 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-3/12 bg-gray-700 min-h-screen">
+        <div className="md:w-3/12 min-h-screen">
           <LoginSidebar />
         </div>
       </div>
