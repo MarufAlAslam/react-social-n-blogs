@@ -8,7 +8,7 @@ const Details = () => {
   const item = location.state.item;
   console.log(item);
   return (
-    <div className="p-10 md:w-2/3 mx-auto">
+    <div className="md:p-10 p-4 md:w-2/3 mx-auto">
       {/* back to dashboard */}
       <Link to="/dashboard" className="text-sm mb-10 flex items-center">
       <FiArrowLeft className="mr-3"/>  Back to Dashboard

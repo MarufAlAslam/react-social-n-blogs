@@ -78,7 +78,7 @@ const LoginSidebar = () => {
       });
   };
   return (
-    <div className="flex flex-col justify-between items-start min-h-screen p-10">
+    <div className="flex flex-col justify-between items-start lg:min-h-screen md:p-10 p-4">
       <div className="login-registration w-full">
         {currentForm === "login" ? (
           <form onSubmit={signinWithEmailnPasword}>
@@ -214,7 +214,7 @@ const LoginSidebar = () => {
           </button>
         </div>
       </div>
-      <div className="contact-form">
+      <div className="contact-form lg:mt-0 mt-16">
         <p className="text-xl text-white">Contact</p>
         <div className="line w-[100px] h-[2px] bg-white my-5"></div>
         <ul className="mt-4 list-disc list-inside">

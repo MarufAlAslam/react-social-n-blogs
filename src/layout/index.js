@@ -23,9 +23,9 @@ const Layout = () => {
         
     }
   return (
-    <div className="flex justify-between items-start">
+    <div className="flex lg:flex-row flex-col-reverse justify-between items-start">
       <div className="md:w-2/12">
-        <div className="min-h-screen flex flex-col justify-end items-start p-10">
+        <div className="md:min-h-screen flex flex-col justify-end items-start md:p-10 p-4">
             <NavLink to="/dashboard" className="w-full mb-3 jost italic">Home</NavLink>
             <NavLink to="/get-involved" className="w-full mb-3 jost italic">Get Involved </NavLink>
             <NavLink to="/info-and-support" className="w-full mb-3 jost italic">Information and support</NavLink>

@@ -25,23 +25,23 @@ const Dashboard = () => {
         }
     ]
   return (
-    <div className="p-10 h-screen overflow-y-scroll md:w-2/3 mx-auto">
-      <div className="bg-[#A18080] p-10 rounded-[15px] mb-10">
-        <p className="text-lg text-white text-justify mb-8">
+    <div className="md:p-10 p-4 md:h-screen overflow-y-scroll md:w-2/3 mx-auto">
+      <div className="bg-[#A18080] md:p-10 p-3 rounded-[15px] mb-10">
+        <p className="md:text-lg text-white md:text-justify mb-8">
           Welcome to our web app designed to help students manage their anxiety
           and depression. We understand that these conditions can have a
           significant impact on your everyday life, and we're here to provide
           you with the tools and resources you need to take control of your
           mental health.
         </p>
-        <p className="text-lg text-white text-justify mb-8">
+        <p className=",d:text-lg text-white md:text-justify mb-8">
           Our app is designed with you in mind, and we've included features such
           as mindfulness exercises, daily journaling prompts, coping strategies,
           and educational content to help you better understand your emotions
           and manage your symptoms. We've also included resources for finding
           professional help if you need it.
         </p>
-        <p className="text-lg text-white text-justify mb-8">
+        <p className="md:text-lg text-white md:text-justify mb-8">
           We hope that our app can be a valuable tool in your mental health
           journey, and we're committed to providing you with the support and
           resources you need to thrive. Remember, taking care of your mental
@@ -50,12 +50,12 @@ const Dashboard = () => {
         </p>
       </div>
 
-      <p className="text-lg text-white text-justify bg-[#A18080] p-10 rounded-[15px] mb-10">
+      <p className="md:text-lg text-white md:text-justify bg-[#A18080] md:p-10 p-3 rounded-[15px] mb-10">
         Here are some of the key features and content of our web app that we
         believe can be incredibly helpful in managing anxiety and depression on
         a day-to-day basis:
       </p>
-      <div className="flex justify-start gap-14 items-center">
+      <div className="flex flex-wrap justify-start md:gap-14 items-center">
         {
             data.map((item) => (
                 <Link key={item.id} to={`/dashboard/${item.id}`} state={{item: item}} className="bg-[#A18080] p-5 mb-8 rounded-[15px]">
