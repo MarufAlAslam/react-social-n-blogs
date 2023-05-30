@@ -4,7 +4,7 @@ Welcome to the documentation for the **Stress and Anxiety Blogs** project. This 
 
 ## Live Website
 
-You can access the live website for the Stress and Anxiety Blogs project by clicking [here](https://www.example.com).
+You can access the live website for the Stress and Anxiety Blogs project by clicking [here](https://stress-n-anxiety-blogs.netlify.app).
 
 ## GitHub Repository
 
@@ -76,5 +76,3 @@ To learn more about the Stress and Anxiety Blogs project, please visit the [live
 If you have any questions or feedback, feel free to reach out to us. We hope this project proves to be a valuable resource for university students in managing their stress and anxiety.
 
 ---
-
-*Note: The word count in this document is an approximation.*
